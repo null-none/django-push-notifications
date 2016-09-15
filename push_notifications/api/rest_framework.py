@@ -173,7 +173,7 @@ class GCMDeviceAuthorizedViewSet(AuthorizedMixin, GCMDeviceViewSet):
 	pass
 
 
-class GCMDeviceAuthenticationTokenViewSet(AuthenticationToken, APNSDeviceViewSet):
+class GCMDeviceAuthenticationTokenViewSet(AuthenticationToken, GCMDeviceAuthorizedViewSet):
 	pass
 
 
